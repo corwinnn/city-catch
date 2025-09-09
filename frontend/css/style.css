@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../images/city.svg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#city-input {
+  width: 300px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  font-size: 1rem;
+}
+
+#result {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 600px;
+}
